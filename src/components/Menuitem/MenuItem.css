@@ -1,0 +1,15 @@
+.app__menuItem-container {
+  margin-bottom: 1rem;
+}
+
+.app__menuItem-titleDashPrice {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.app__menuItem-dash {
+  width: 69px;
+  height: 1px;
+  background: white;
+}

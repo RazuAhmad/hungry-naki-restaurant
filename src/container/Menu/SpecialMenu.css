@@ -1,0 +1,26 @@
+.app__todaysSpecial {
+  background: var(--color-black);
+}
+
+.app__todaysSpecial-Heading {
+  text-align: center;
+}
+
+.app__todaysSpecial-Heading h1 {
+  margin-top: 1rem;
+}
+
+.app_specialMenu-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 5rem;
+}
+.app__specialMenu-Image {
+  text-align: center;
+  margin: 0 2rem;
+}
+.app__specialMenu-Image img {
+  width: 300px;
+  height: 432px;
+}

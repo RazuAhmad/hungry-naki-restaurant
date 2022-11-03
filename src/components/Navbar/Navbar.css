@@ -1,0 +1,40 @@
+.app__navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--color-black);
+  color: aliceblue;
+}
+.app_navbar-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app_navbar-links p {
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+.app_navbar-logInBooking {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app_navbar-logInBooking p {
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+.app_navbar-logInBooking div {
+  background: gray;
+  height: 38px;
+  width: 3px;
+  margin: 0 1rem;
+}
+
+.app_navbar-title_img img {
+  width: 150px;
+}

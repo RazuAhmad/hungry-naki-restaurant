@@ -1,0 +1,38 @@
+.app__header {
+  display: flex;
+  flex-direction: row;
+  background-color: var(--color-black);
+  color: white;
+}
+
+.app__header-textual-part {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 1.5rem;
+}
+
+.app__header-textual-part h1 {
+  margin: 1rem 0;
+}
+.app__header-textual-part p:last-child {
+  margin-top: 1rem;
+}
+.app__header-image {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: flex-start; */
+}
+.app__header-image img {
+  width: 80%;
+}
+
+.app__header h2 {
+  font-family: var(--font-base);
+}
+
+.app__header h1 {
+  font-family: var(--font-base);
+  color: var(--color-golden);
+  font-size: 40px;
+}
