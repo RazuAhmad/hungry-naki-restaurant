@@ -11,11 +11,21 @@ const Navbar = () => (
       <img src={navbarLogo} alt="app__logo" />
     </div>
     <div className="app_navbar-links">
-      <p>Home</p>
-      <p>About</p>
-      <p>Menu</p>
-      <p>Awards</p>
-      <p>Contact</p>
+      <p>
+        <a href="#home">Home</a>
+      </p>
+
+      <p>
+        <a href="#menu">Menu</a>
+      </p>
+      <p>
+        {" "}
+        <a href="#awards">Awards</a>
+      </p>
+      <p>
+        {" "}
+        <a href="#contact">Contact</a>
+      </p>
     </div>
     <div className="app_navbar-logInBooking">
       <p>Log In/Register</p>

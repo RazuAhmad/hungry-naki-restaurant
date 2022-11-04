@@ -1,0 +1,14 @@
+.app__awardCard-container {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-evenly; */
+  align-items: center;
+}
+
+.app__awardCard-image {
+  margin: 0 2rem 1rem 0;
+}
+
+.app__awardCard-image img {
+  width: 50px;
+}

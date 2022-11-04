@@ -5,7 +5,7 @@ import "./SpecialMenu.css";
 import { MenuItem } from "../../components";
 
 const SpecialMenu = () => (
-  <div className="app__todaysSpecial section__padding">
+  <div className="app__todaysSpecial section__padding" id="menu">
     <div className="app__todaysSpecial-Heading">
       <p className="p__cormorant">Menu That Fits You Palatte</p>
       <p>

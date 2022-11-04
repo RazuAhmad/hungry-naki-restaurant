@@ -1,0 +1,23 @@
+.app__findUs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.app__findUs-content {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.app__findUs-image {
+  display: flex;
+  flex: 1;
+  margin-left: 2rem;
+}
+
+.app__findUs-image img {
+  width: 70%;
+}

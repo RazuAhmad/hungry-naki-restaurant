@@ -1,0 +1,45 @@
+.app__footer-contactUs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.app__footer-newsLetter {
+  text-align: center;
+  border: 2px solid white;
+  padding: 1rem;
+}
+
+.app__footer-newsLetter p:last-child input {
+  height: 43px;
+  width: 65%;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: none;
+}
+
+.app__footer-newsLetter p:last-child button:hover {
+  background: orangered;
+}
+
+.app__footer-contactUs2 p img {
+  width: 200px;
+  height: 70px;
+}
+
+.app__footer-contactUs2 p:last-child img {
+  width: 50px;
+}
+
+.app__footer_contactUs2-socialIcons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.app__footer_contactUs2-socialIcons p {
+  margin-right: 0.9rem;
+  cursor: pointer;
+}

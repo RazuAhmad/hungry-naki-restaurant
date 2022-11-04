@@ -4,7 +4,7 @@ import images from "../../constants/images";
 import { SubHeading } from "../../components";
 
 const Header = () => (
-  <div className="app__header section__padding">
+  <div className="app__header section__padding" id="home">
     <div className="app__header-textual-part">
       <SubHeading title="Chase The New Flavour" />
       <h1>

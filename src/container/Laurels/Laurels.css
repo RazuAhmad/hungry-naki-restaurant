@@ -1,0 +1,23 @@
+.app__laurels-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.app__award-content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.app__award-image {
+  display: flex;
+
+  flex: 1;
+  margin-left: 2rem;
+}
+
+.app__award-image img {
+  width: 450px;
+  /* height: 100%; */
+}

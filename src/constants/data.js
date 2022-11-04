@@ -59,7 +59,7 @@ const BengaliVorta = [
 const awards = [
   {
     imgUrl: images.award02,
-    title: "Bib Gourmond",
+    title: "Bangla Restaurant",
     subtitle: "Lorem ipsum dolor sit amet, consectetur.",
   },
   {
@@ -69,7 +69,7 @@ const awards = [
   },
   {
     imgUrl: images.award05,
-    title: "AA Hospitality",
+    title: "Bangabandhu Award",
     subtitle: "Lorem ipsum dolor sit amet, consectetur.",
   },
   {

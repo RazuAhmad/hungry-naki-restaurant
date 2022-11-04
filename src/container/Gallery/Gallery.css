@@ -1,0 +1,25 @@
+.app__gallery-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.app__gallery_text-content {
+  flex: 1;
+}
+
+.app__gallery-images {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+}
+
+.app__gallery-images img {
+  width: 120px;
+}
+
+.app__gallery-images p img:hover {
+  opacity: 0.4;
+}
