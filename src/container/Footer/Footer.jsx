@@ -1,5 +1,5 @@
 import React from "react";
-import { SubHeading } from "../../components";
+import { Newsletter, SubHeading } from "../../components";
 import navbarLogo from "../../assets/navbarLogo.png";
 import { TbBrandFacebook } from "react-icons/tb";
 import { TbBrandTwitter } from "react-icons/tb";
@@ -9,15 +9,7 @@ import images from "../../constants/images";
 
 const Footer = () => (
   <div className="app__footer section__padding app__bg">
-    <div className="app__footer-newsLetter">
-      <SubHeading title="News Letter" />
-      <h1 className="headText__cormorant">Subscribe To Our Newsletter</h1>
-      <p className="p__openSans">And Never Miss Latest Updates!</p>
-      <p>
-        <input type="email" placeholder="enter your email" />{" "}
-        <button className="custom__button">Subscribe</button>
-      </p>
-    </div>
+    <Newsletter />
     <div className="app__footer-contactUs">
       <div className="app__footer-contactUs1">
         <p className="p__cormorant">Contact Us</p>
