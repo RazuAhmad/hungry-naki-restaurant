@@ -21,3 +21,12 @@
 .app__findUs-image img {
   width: 70%;
 }
+
+@media screen and (max-width: 1080px) {
+  .app__findUs {
+    flex-direction: column;
+  }
+  .app__findUs-image {
+    margin-top: 5rem;
+  }
+}

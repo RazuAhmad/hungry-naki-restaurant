@@ -9,7 +9,11 @@ const Newsletter = () => (
     <h1 className="headText__cormorant">Subscribe To Our Newsletter</h1>
     <p className="p__openSans">And Never Miss Latest Updates!</p>
     <p>
-      <input type="email" placeholder="enter your email" />{" "}
+      <input
+        className="your__email"
+        type="email"
+        placeholder="enter your email"
+      />{" "}
       <button className="custom__button">Subscribe</button>
     </p>
   </div>

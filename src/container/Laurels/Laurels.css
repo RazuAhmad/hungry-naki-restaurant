@@ -18,6 +18,18 @@
 }
 
 .app__award-image img {
-  width: 450px;
+  width: 80%;
   /* height: 100%; */
+}
+
+@media screen and (max-width: 1080px) {
+  .app__laurels-container {
+    flex-direction: column;
+  }
+  .app__award-content {
+    margin-bottom: 5rem;
+  }
+  .app__award-image img {
+    width: 95%;
+  }
 }

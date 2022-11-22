@@ -1,0 +1,8 @@
+@media screen and (max-width: 1080px) {
+  .app__footer-newsLetter .headText__cormorant {
+    font-size: 45px;
+  }
+  .your__email {
+    margin: 1rem 0;
+  }
+}

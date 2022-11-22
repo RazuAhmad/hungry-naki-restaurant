@@ -43,3 +43,14 @@
   margin-right: 0.9rem;
   cursor: pointer;
 }
+
+@media screen and (max-width: 1080px) {
+  .app__footer-contactUs {
+    flex-direction: column;
+  }
+  .app__footer-contactUs1,
+  .app__footer-contactUs2,
+  .app__footer-contactUs3 {
+    margin-bottom: 3rem;
+  }
+}

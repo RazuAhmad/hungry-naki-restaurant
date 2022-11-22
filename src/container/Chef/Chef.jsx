@@ -1,4 +1,5 @@
 import React from "react";
+
 import { SubHeading } from "../../components";
 import images from "../../constants/images";
 
@@ -6,10 +7,10 @@ import "./Chef.css";
 
 const Chef = () => (
   <div className="app__chef-container section__padding ">
-    <div className="app__chef-image">
+    <div data-aos="fade-up" className="app__chef-image">
       <img src={images.chef} alt="" />
     </div>
-    <div className="app__chef-texts">
+    <div className="app__chef-texts" data-aos="fade-right">
       <SubHeading title="Chef's word" />
       <h1 className="headText__cormorant">What We Believe In</h1>
       <div className="app__chef-quotation">

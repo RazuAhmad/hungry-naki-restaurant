@@ -36,3 +36,12 @@
   color: var(--color-golden);
   font-size: 40px;
 }
+
+@media screen and (max-width: 1080px) {
+  .app__header {
+    flex-direction: column;
+  }
+  .app__header-textual-part {
+    margin-bottom: 4rem;
+  }
+}

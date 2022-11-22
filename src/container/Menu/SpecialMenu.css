@@ -24,3 +24,9 @@
   width: 300px;
   height: 432px;
 }
+
+@media screen and (max-width: 1080px) {
+  .app_specialMenu-container {
+    flex-direction: column;
+  }
+}

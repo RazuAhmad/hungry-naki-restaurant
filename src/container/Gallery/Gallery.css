@@ -23,3 +23,15 @@
 .app__gallery-images p img:hover {
   opacity: 0.4;
 }
+
+@media screen and (max-width: 1080px) {
+  .app__gallery-container {
+    flex-direction: column;
+  }
+  .app__gallery-images img {
+    width: 95%;
+  }
+  .app__gallery_text-content {
+    margin-bottom: 4rem;
+  }
+}

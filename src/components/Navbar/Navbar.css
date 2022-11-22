@@ -5,10 +5,13 @@
   align-items: center;
   background-color: var(--color-black);
   color: aliceblue;
+  border-bottom: 1px solid blue;
+  font-family: var(--font-base);
+  font-size: 26px;
 }
 .app_navbar-links {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -17,7 +20,7 @@
 }
 
 .app_navbar-links p:hover {
-  border-bottom: 3px solid yellow;
+  border-bottom: 1px solid yellow;
   cursor: pointer;
 }
 
@@ -64,16 +67,39 @@
   font-size: 27px;
   color: var(--color-golden);
   cursor: pointer;
-  position: absolute;
+  /* position: absolute;
   top: 20px;
-  right: 20px;
+  right: 20px; */
+}
+
+.app__navbar-smallScreen_links p {
+  margin: 2rem;
+  cursor: pointer;
+  color: var(--color-golden);
+  font-size: 2rem;
+  text-align: center;
+  font-family: var(--font-base);
+}
+
+.app__navbar-smallScreen_links p:hover {
+  color: var(--color-);
 }
 
 @media screen and (max-width: 1080px) {
   .app_navbar-smallScreen {
     display: flex;
   }
-  .app__navbar-smallScreen_overlay {
-    display: flex;
+
+  .app_navbar-links {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 785px) {
+  .app_navbar-logInBooking {
+    display: none;
+  }
+  .app__navbar {
+    padding: 1rem;
   }
 }

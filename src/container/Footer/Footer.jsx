@@ -5,6 +5,7 @@ import { TbBrandFacebook } from "react-icons/tb";
 import { TbBrandTwitter } from "react-icons/tb";
 import { TbBrandInstagram } from "react-icons/tb";
 import "./Footer.css";
+
 import images from "../../constants/images";
 
 const Footer = () => (

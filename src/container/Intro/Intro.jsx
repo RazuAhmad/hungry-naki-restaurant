@@ -5,12 +5,7 @@ import "./Intro.css";
 
 const Intro = () => (
   <div className="app__intro app__bg">
-    <video
-      controls
-      loop
-      style={{ width: "100%", height: "100%" }}
-      src={meal}
-    ></video>
+    <video className="video" controls loop src={meal}></video>
   </div>
 );
 

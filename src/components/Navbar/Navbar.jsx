@@ -47,7 +47,7 @@ const Navbar = () => {
           onClick={() => setToggleMenu(true)}
         />
         {toggleMenu && (
-          <div className="app__navbar-smallScreen_overlay flex-center slide-bottom">
+          <div className="app__navbar-smallScreen_overlay flex__center  slide-bottom">
             <MdOutlineRestaurantMenu
               color="#fff"
               fontSize={27}
