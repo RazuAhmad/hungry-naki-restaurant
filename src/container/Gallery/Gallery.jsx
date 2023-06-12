@@ -14,7 +14,9 @@ const Gallery = () => (
         mollitia nihil, accusamus, nam amet rem harum velit cum aut dolores
         reprehenderit libero dicta ratione reiciendis.
       </p>
-      <button className="custom__button">View More</button>
+      <a href="https://www.instagram.com/hungrynaki" target="_blank">
+        <button className="custom__button">View More</button>
+      </a>
     </div>
     <div className="app__gallery-images">
       <p>

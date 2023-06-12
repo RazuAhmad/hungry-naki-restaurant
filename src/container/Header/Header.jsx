@@ -20,7 +20,9 @@ const Header = () => (
         until 23:00
       </p>
       <p>
-        <button className="custom__button">Explore Menu</button>
+        <a href="#menu">
+          <button className="custom__button">Explore Menu</button>
+        </a>
       </p>
     </div>
     <div className="app__header-image">

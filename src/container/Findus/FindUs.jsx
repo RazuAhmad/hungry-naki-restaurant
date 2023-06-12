@@ -21,7 +21,10 @@ const FindUs = () => (
       <p className="p__cormorant">Opening Hours</p>
       <p className="p__openSans">Mon-Fri: 10.00 Am - 02.00 Am</p>
       <p className="p__openSans">Sat-Sun: 10.00 Am - 03.00 Am</p>
-      <button className="custom__button">Visit Us</button>
+      <a href="https://hungrynaki.com/contact" target="_blank">
+        {" "}
+        <button className="custom__button">Visit Us</button>
+      </a>
     </div>
     <div className="app__findUs-image ">
       <img src={images.findUs} alt="findUsImg" />

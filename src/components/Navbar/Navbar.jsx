@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { MdOutlineRestaurantMenu } from "react-icons/md";
-import images from "../../constants/images";
 import navbarLogo from "../../assets/navbarLogo.png";
 import "./Navbar.css";
 
@@ -56,7 +55,27 @@ const Navbar = () => {
             />
 
             <div className="app__navbar-smallScreen_links ">
-              <Menu />
+              <p>
+                <a onClick={() => setToggleMenu(false)} href="#home">
+                  Home
+                </a>
+              </p>
+
+              <p>
+                <a onClick={() => setToggleMenu(false)} href="#menu">
+                  Menu
+                </a>
+              </p>
+              <p>
+                <a onClick={() => setToggleMenu(false)} href="#awards">
+                  Awards
+                </a>
+              </p>
+              <p>
+                <a onClick={() => setToggleMenu(false)} href="#contact">
+                  Contact
+                </a>
+              </p>
             </div>
           </div>
         )}
